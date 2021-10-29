@@ -1,0 +1,220 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #3b5998;
+    width: 100%;
+    height: 85px;
+}
+
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+
+.login{
+    width:50%; 
+    float: left;
+    padding-top: 10px;
+    position: relative;
+    left:30px;
+
+}
+
+#fb_name{
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.login-controls{
+    margin-left: 115px;z
+}
+
+.login-label{
+    color:#fff;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.in-text{
+    margin-left: 10px;
+}
+
+.forgotten-text{
+    font-size: 11px;
+    text-decoration: none;
+    color: #9cb4d9;
+    padding-top: 10px;
+}
+
+.sub-btn{
+    background-color: #4367b2;
+    color: #fff;
+    border-color: #29487d;
+    height: 21px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.sub-btn:hover{
+    background-color: darkblue;
+}
+
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 134px;
+    padding-top: 52px;
+}
+
+.right-section{
+    width:39%;
+    float:left;
+
+}
+
+.main-body{
+    background: linear-gradient(white,#9fb8c5);
+    width:100%;
+    height:635px;
+}
+
+.para{
+    font-weight: bold;
+    font-size: 21px;
+    color:rgb(5, 21, 70);
+}
+.image{
+    width:581px;
+}
+
+.form-data{
+    height: 35px;
+    width: 200px;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding-left:10px;
+    font-size: 15px;
+    border: 2px solid rgb(212, 208, 208);
+    
+}
+
+.form-data:hover{
+    border-color: midnightblue;
+}
+
+.right-title{
+    /* border: 5px solid red; */
+    margin-top: 28px;;
+}
+
+.right-para{
+    font-weight:normal;
+    position: relative;
+    top:5px;
+}
+
+.form-em-pass{
+    height: 37px;
+    width: 420px;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding-left:10px;
+    font-size: 15px;
+    border: 2px solid rgb(212, 208, 208);
+}
+
+.form-em-pass:hover{
+    border-color: midnightblue;
+
+}
+
+::placeholder{
+    font-size: 17px;
+}
+
+.dob{
+    color: grey;
+    font-weight: bold;
+}
+
+.day{
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.month{
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.year{
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.gen{
+    color: grey;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.rad{
+    margin-top: 7px;
+    color:rgb(44, 40, 40);
+    font-weight: bold;
+
+}
+
+.lst-para{
+    font-size: 12px;
+    color: gray;
+    width: 310px;
+}
+
+.lst-para-a{
+    text-decoration: none;
+    color: rgb(30, 30, 126);
+}
+
+.lst-btn{
+    background-color: rgb(52, 143, 52);
+    color: #fff;
+    border-color: rgb(43, 151, 43);
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.lst-btn:hover{
+    background-color: rgb(9, 155, 9);
+    border-color: rgb(43, 151, 43);
+}
+
+#para-lst{
+    color: grey;
+    font-weight: bold;
+}
+
+.a-lst{
+    margin-top: 10px;
+    text-decoration: none;
+    color:rgb(12, 12, 68); ;
+}
